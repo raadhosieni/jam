@@ -1,10 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
 
 const RecipeCard = ({ recipe }) => {
     const { title, cookingTime, slug, thumbnail } = recipe.fields;
-    console.log(thumbnail.fields);
     return (
         <div className="card">
             <div className="featured">
